@@ -14,13 +14,13 @@ struct Operator
   }
 };
 
-// Single thread
+// >>>>>>>>>>>> Slightly faster than C++11 lambda
 for (int n = 0; n < numTrials; n++)
 {
   image2.forEach<Pixel>(Operator());
 }
 
-// C++11 Multi-thread
+// C++11 lambda>
 #if __cplusplus >= 201103L || (__cplusplus < 200000 && __cplusplus > 199711L)
   
   for (int n = 0; n < numTrials; n++)
