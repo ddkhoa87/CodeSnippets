@@ -1,12 +1,3 @@
-SimplePainting.py
-d
-
-You uploaded an item
-Jun 19
-Text
-SimplePainting.py
-No recorded activity before June 19, 2017
-
 # -*- coding: utf-8 -*-
 """
 Created on Fri Jun 16 14:40:29 2017
