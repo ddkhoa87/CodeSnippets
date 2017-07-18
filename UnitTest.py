@@ -25,6 +25,14 @@ class Test(unittest.TestCase):
 		self.assertGreater(len(templateImgs), 0)
 		
 def unittestMain():
-	unittest.main();
+	''' To Run one test from command line
+	python UnitTest.py Test.test_loadTemplate
+	'''
+	unittest.main()
+	
+	# Run a subset of test cases
+	# testSuite = unittest.TestSuite()
+	# testSuite.addTest(Test("test_loadTemplate"))
+	# unittest.TextTestRunner(verbosity = 2).run(testSuite)
 	
 unittestMain()
